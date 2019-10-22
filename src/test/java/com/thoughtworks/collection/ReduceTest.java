@@ -117,7 +117,7 @@ public class ReduceTest {
     }
 
     @Test
-    public void should_return_index_of_last_even_element() {
+    public void should_return_index_of_last_odd_element() {
         //Get the last odd number in the array
         Integer[] array = new Integer[]{1, 4, 27, 20, 4, 9, 15, 4, 1, 11};
         List<Integer> arrayList = Arrays.asList(array);
